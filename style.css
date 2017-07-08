@@ -1,0 +1,20 @@
+.crystal-image {
+  width: 300px;
+  height: 300px;
+}
+
+.well, .well-lg {
+  width: 50%;
+  background-color: #f1f1f1;
+  border: solid 0px #a25151;
+  border-radius: 3px;
+  background-position: center;
+}
+
+.container {
+  background: url("Assets/dark-triangles.png");
+}
+
+h1 {
+  color: white;
+}
