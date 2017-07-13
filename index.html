@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>simple crystal game</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body class="container">
+  <div class="container">
+    <div class="row">
+      <div class="well well-lg col-lg-4 col-md-4">
+        <h1>Crystals Collector!</h1>
+          <div class="p-text">
+            <p>Your goal is to match your score to the target number shown you.</p>
+            <p>Below you will find a target number. By clicking on the crystals to the right you will add a specific amount of points to your total score.
+            </p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time the game starts, the value of each crystal will change.</p>
+          </div>
+        <div class="panel panel-default">
+          <h3>Target Number: <span id="numToGuess"></span></h3>
+          <hr>
+          <h3>Your Number: <span id="score"></span></h3>
+          <hr>
+          <h3>Wins: <span id="numWins"></span></h3>
+          <h3>Losses: <span id="numLosses"></span></h3>
+        </div>  
+
+
+
+
+      </div>
+      <div class="container-img">
+        <div class="col-lg-4 col-md-4">
+<!--           <img src="">
+          <img src=""> -->
+          <img src="Assets/crystal1.svg" alt="" id="one">
+          
+
+          <img src="Assets/crystal3.svg" alt="" id="two">
+        </div>
+        <div class="col-lg-4 col-md-4">
+<!--           <img src="">
+          <img src=""> -->
+          <img src="Assets/crystal4.svg" alt="" id="three">
+          <img src="Assets/crystal5.svg" alt="" id="four">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--   <div id="outcome" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+    <p></p>
+  </div>
+</div> -->
+
+  <footer class="footer" >
+    <div>
+        <div class="">
+          <p class="text-muted" >&copy; 2017 Joshua Weber</p>
+      </div>    
+  </footer>
+
+
+  <!-- Note that this div is now empty. We will fill it dynamically -->
+<!--   <div id="crystals">
+  </div> -->
+
+  <!-- JAVASCRIPT  -->
+  <!-- ========================================= -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
