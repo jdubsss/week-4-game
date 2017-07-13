@@ -57,8 +57,8 @@ function reset () {
 
 //adds the wins to total
 function winner (){
-    alert('You Won!!! Lets keep it going!');
-
+    // alert('You Won!!! Lets keep it going!');
+     swal("Good job!", "You Won! Let's keep the momentum going!", "success")
   // $('#outcome .modal-content p').html("You Won!");
   // $('#outcome').show();
   wins++;
@@ -70,7 +70,8 @@ function winner (){
 
 //adds the loss to total
 function loser (){
-  alert('You Lost. Let' + "'" + 's try again!');
+  // alert('You Lost. Let' + "'" + 's try again!');
+  sweetAlert("Oops...", "You went too far, lets try it again.", "error");
   // $('#outcome .modal-content p').html("You Lose!");
   // $('#outcome').show();
   losses++;
