@@ -1,10 +1,3 @@
-// $(document).foundation();
-
-
-
-
-
-
 //print users target number to page
 
 $(document).ready(function(){
